@@ -1,2 +1,3 @@
-print('hej från guy with the hat')
+print('Hej från Maryam')
+print('hej från guy with the gray hat')
 print(" Hej från Mohammad")
