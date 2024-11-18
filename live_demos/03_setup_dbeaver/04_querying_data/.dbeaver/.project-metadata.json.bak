@@ -1,0 +1,1 @@
+{"resources":{"sql/query_salaries.sql":{"default-datasource":"duckdb_jdbc-1933bc471d9-57bae0ecab64d4a7","default-catalog":"salaries"}}}

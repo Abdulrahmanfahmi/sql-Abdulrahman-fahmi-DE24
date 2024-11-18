@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1933a6c3e0c-347f5028d9dce50a": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "salaries.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "/Users/abdulrahmanfahmi/github/sql-Abdulrahman-fahmi-DE24/03_setup_dbeaver/04_querying_data/Data/salaries.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/github/sql-Abdulrahman-fahmi-DE24/03_setup_dbeaver/04_querying_data/Data/salaries.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
