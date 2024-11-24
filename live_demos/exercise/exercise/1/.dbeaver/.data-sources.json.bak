@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-193549f7b15-2ccf3387a624188b": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "hemnet.duckdb",
+			"save-password": true,
+			"virtual-model-id": "duckdb_jdbc-193549f2109-5faf10b7f640e7ed",
+			"configuration": {
+				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/exercise/exercise/1/hemnet.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/exercise/exercise/1/hemnet.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
