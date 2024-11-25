@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-193628b11f0-7b2868e139b4a79c": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "synthetic_data.duckdb",
+			"save-password": true,
+			"virtual-model-id": "duckdb_jdbc-193628a6ceb-7e99b6a918d86f87",
+			"configuration": {
+				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/07_Generating_Data/synthetic_data.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/07_Generating_Data/synthetic_data.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
