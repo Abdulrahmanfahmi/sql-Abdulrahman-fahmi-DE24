@@ -1,12 +1,12 @@
 {
 	"folders": {},
 	"connections": {
-		"duckdb_jdbc-193628b11f0-7b2868e139b4a79c": {
+		"duckdb_jdbc-193628ccdfe-723fb326c97e88f5": {
 			"provider": "generic",
 			"driver": "duckdb_jdbc",
 			"name": "synthetic_data.duckdb",
 			"save-password": true,
-			"virtual-model-id": "duckdb_jdbc-193628a6ceb-7e99b6a918d86f87",
+			"virtual-model-id": "duckdb_jdbc-193628c93c5-2f3f6cbec96d16e3",
 			"configuration": {
 				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/07_Generating_Data/synthetic_data.duckdb",
 				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/07_Generating_Data/synthetic_data.duckdb",
