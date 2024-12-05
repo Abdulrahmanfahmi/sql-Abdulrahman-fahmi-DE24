@@ -1,0 +1,50 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1938822f45b-1c1b0f35ad23bd25": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "electrionic_shop.duckdb",
+			"save-password": true,
+			"virtual-model-id": "duckdb_jdbc-19388229f4a-1dc9a943b6128102",
+			"configuration": {
+				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/10_set_operations/data/electrionic_shop.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/10_set_operations/data/electrionic_shop.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"duckdb_jdbc-19397e41bd8-6630a4b0fdddb296": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "sakila.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/10_set_operations/data/sakila.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/10_set_operations/data/sakila.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
