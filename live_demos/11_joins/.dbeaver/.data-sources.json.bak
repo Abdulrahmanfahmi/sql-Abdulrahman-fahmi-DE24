@@ -1,14 +1,15 @@
 {
 	"folders": {},
 	"connections": {
-		"duckdb_jdbc-193454e3b94-f90e7747f226f5c": {
+		"duckdb_jdbc-193ac2198e8-1b8a5d382f480a20": {
 			"provider": "generic",
 			"driver": "duckdb_jdbc",
-			"name": "glossary.duckdb",
+			"name": "plants.duckdb",
 			"save-password": true,
+			"virtual-model-id": "duckdb_jdbc-193ac2130f7-1ed2e0711e20fea3",
 			"configuration": {
-				"database": "/Users/abdulrahmanfahmi/github/sql-Abdulrahman-fahmi-DE24/live_demos/06_crud_operations/Data/glossary.duckdb",
-				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/github/sql-Abdulrahman-fahmi-DE24/live_demos/06_crud_operations/Data/glossary.duckdb",
+				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/11_joins/data/plants.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/11_joins/data/plants.duckdb",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,

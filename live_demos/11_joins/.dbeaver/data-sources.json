@@ -1,0 +1,51 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-193ac222cac-3fc3274290934606": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "sakila.duckdb",
+			"save-password": true,
+			"virtual-model-id": "duckdb_jdbc-193ac21c541-3ba57f908b208de3",
+			"configuration": {
+				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/11_joins/data/sakila.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/11_joins/data/sakila.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"duckdb_jdbc-193ac27110b-6a9a6f93d9ce9b97": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "plants.duckdb",
+			"save-password": true,
+			"virtual-model-id": "duckdb_jdbc-193ac26dfc0-5603db4d1dec1a56",
+			"configuration": {
+				"database": "/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/11_joins/data/plants.duckdb",
+				"url": "jdbc:duckdb:/Users/abdulrahmanfahmi/Documents/github/sql-Abdulrahman-fahmi-DE24/live_demos/11_joins/data/plants.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

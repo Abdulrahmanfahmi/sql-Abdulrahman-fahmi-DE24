@@ -1,0 +1,1 @@
+{"resources":{"sql/Generate_data.sql":{"default-datasource":"duckdb_jdbc-193ac222cac-3fc3274290934606","default-catalog":"sakila"},"sql/joins.sql":{"default-datasource":"duckdb_jdbc-193ac222cac-3fc3274290934606","default-catalog":"sakila"},"sql/joins_sakila.sql":{"default-datasource":"duckdb_jdbc-193ac222cac-3fc3274290934606","default-catalog":"sakila"}}}
